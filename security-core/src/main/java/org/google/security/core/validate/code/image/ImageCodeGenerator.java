@@ -1,7 +1,7 @@
-package org.google.security.core.validate.code.impl;
+package org.google.security.core.validate.code.image;
 
 import org.google.security.core.properties.SecurityProperties;
-import org.google.security.core.validate.code.ImageCode;
+import org.google.security.core.validate.code.image.ImageCode;
 import org.google.security.core.validate.code.ValidateCodeGenerator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.ServletRequestUtils;

@@ -1,6 +1,6 @@
 package org.google.code;
 
-import org.google.security.core.validate.code.ImageCode;
+import org.google.security.core.validate.code.image.ImageCode;
 import org.google.security.core.validate.code.ValidateCodeGenerator;
 import org.springframework.web.context.request.ServletWebRequest;
 

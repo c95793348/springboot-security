@@ -1,6 +1,9 @@
-package org.google.security.core.validate.code;
+package org.google.security.core.validate.code.impl;
 
 import org.apache.commons.lang.StringUtils;
+import org.google.security.core.validate.code.ValidateCode;
+import org.google.security.core.validate.code.ValidateCodeGenerator;
+import org.google.security.core.validate.code.ValidateCodeProcessor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.social.connect.web.HttpSessionSessionStrategy;
 import org.springframework.social.connect.web.SessionStrategy;

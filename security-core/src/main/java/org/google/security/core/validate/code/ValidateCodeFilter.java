@@ -3,6 +3,7 @@ package org.google.security.core.validate.code;
 import org.apache.commons.lang.ArrayUtils;
 import org.apache.commons.lang.StringUtils;
 import org.google.security.core.properties.SecurityProperties;
+import org.google.security.core.validate.code.image.ImageCode;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.social.connect.web.HttpSessionSessionStrategy;

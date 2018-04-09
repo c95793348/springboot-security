@@ -1,8 +1,8 @@
 package org.google.security.core.validate.code;
 
 import org.google.security.core.properties.SecurityProperties;
-import org.google.security.core.validate.code.impl.DefaultSmsCodeSender;
-import org.google.security.core.validate.code.impl.ImageCodeGenerator;
+import org.google.security.core.validate.code.sms.DefaultSmsCodeSender;
+import org.google.security.core.validate.code.image.ImageCodeGenerator;
 import org.google.security.core.validate.code.sms.SmsCodeSender;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;

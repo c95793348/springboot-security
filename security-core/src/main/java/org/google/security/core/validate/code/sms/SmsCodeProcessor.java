@@ -1,6 +1,6 @@
 package org.google.security.core.validate.code.sms;
 
-import org.google.security.core.validate.code.AbstractValidateCodeProcessor;
+import org.google.security.core.validate.code.impl.AbstractValidateCodeProcessor;
 import org.google.security.core.validate.code.ValidateCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

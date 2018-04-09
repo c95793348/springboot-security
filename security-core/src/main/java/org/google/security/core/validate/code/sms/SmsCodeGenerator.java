@@ -1,4 +1,4 @@
-package org.google.security.core.validate.code.impl;
+package org.google.security.core.validate.code.sms;
 
 import org.apache.commons.lang.RandomStringUtils;
 import org.google.security.core.properties.SecurityProperties;

@@ -1,4 +1,6 @@
-package org.google.security.core.validate.code;
+package org.google.security.core.validate.code.image;
+
+import org.google.security.core.validate.code.ValidateCode;
 
 import java.awt.image.BufferedImage;
 import java.time.LocalDateTime;

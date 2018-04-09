@@ -1,4 +1,4 @@
-package org.google.security.core.validate.code.impl;
+package org.google.security.core.validate.code.sms;
 
 import org.google.security.core.validate.code.sms.SmsCodeSender;
 

@@ -1,7 +1,6 @@
 package org.google.security.core.validate.code.image;
 
-import org.google.security.core.validate.code.AbstractValidateCodeProcessor;
-import org.google.security.core.validate.code.ImageCode;
+import org.google.security.core.validate.code.impl.AbstractValidateCodeProcessor;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.ServletWebRequest;
 
