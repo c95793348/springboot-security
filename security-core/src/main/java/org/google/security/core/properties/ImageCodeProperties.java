@@ -4,21 +4,13 @@ package org.google.security.core.properties;
  * Created by wbcaoa on 2018/3/30.
  * 图形验证码 默认配置
  */
-public class ImageCodeProperties {
+public class ImageCodeProperties extends SmsCodeProperties {
 
     private int width = 67;
     private int height = 23;
-    private int length = 4;
-    private int expireIn = 60;
 
-    private String url;
-
-    public String getUrl() {
-        return url;
-    }
-
-    public void setUrl(String url) {
-        this.url = url;
+    public ImageCodeProperties() {
+        setLength(4);//默认4位图形验证码
     }
 
     public int getWidth() {
@@ -37,19 +29,4 @@ public class ImageCodeProperties {
         this.height = height;
     }
 
-    public int getLength() {
-        return length;
-    }
-
-    public void setLength(int length) {
-        this.length = length;
-    }
-
-    public int getExpireIn() {
-        return expireIn;
-    }
-
-    public void setExpireIn(int expireIn) {
-        this.expireIn = expireIn;
-    }
 }

@@ -32,7 +32,11 @@ out
 gen
 .gitignore
 .idea/
+google-security.iml
 security-app/security-app.iml
 security-browser/security-browser.iml
 security-core/security-core.iml
 security-demo/security-demo.iml
+security-browser/target/
+security-core/target/
+security-demo/target/
