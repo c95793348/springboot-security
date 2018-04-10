@@ -6,7 +6,7 @@ package org.google.security.core.properties;
 public class SmsCodeProperties {
 
     private int length = 6;
-    private int expireIn = 60;
+    private int expireIn = 180;
 
     private String url;
 

@@ -10,14 +10,14 @@ public class BrowserPropeties {
 
     private LoginType loginType = LoginType.JSON;
 
-    private int remeberMeSeconds = 3600;
+    private int rememberMeSeconds = 3600;
 
-    public int getRemeberMeSeconds() {
-        return remeberMeSeconds;
+    public int getRememberMeSeconds() {
+        return rememberMeSeconds;
     }
 
-    public void setRemeberMeSeconds(int remeberMeSeconds) {
-        this.remeberMeSeconds = remeberMeSeconds;
+    public void setRememberMeSeconds(int rememberMeSeconds) {
+        this.rememberMeSeconds = rememberMeSeconds;
     }
 
     public String getLoginPage() {

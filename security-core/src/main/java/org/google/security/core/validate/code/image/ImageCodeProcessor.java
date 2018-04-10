@@ -9,7 +9,7 @@ import javax.imageio.ImageIO;
 /**
  * Created by wbcaoa on 2018/4/9.
  */
-@Component("imageCodeProcessor")
+@Component("imageValidateCodeProcessor")
 public class ImageCodeProcessor extends AbstractValidateCodeProcessor<ImageCode> {
 
     /**
