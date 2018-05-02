@@ -10,7 +10,7 @@ import org.springframework.social.oauth2.OAuth2Template;
  */
 public class QQServiceProvider extends AbstractOAuth2ServiceProvider<QQ> {
 
-    private String appId;
+    private String appId = "11111111111";
 
     private static final String URL_AUTHORIZE = "https://graph.qq.com/oauth2.0/authorize";
 
