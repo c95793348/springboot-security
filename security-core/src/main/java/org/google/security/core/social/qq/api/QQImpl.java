@@ -36,13 +36,17 @@ public class QQImpl extends AbstractOAuth2ApiBinding implements QQ {
     }
 
     @Override
-    public QQUserInfo getUserInfo() throws IOException {
+    public QQUserInfo getUserInfo(){
 
         String url = String.format(URL_GET_USERINFO, appId, openId);
         String result = getRestTemplate().getForObject(url, String.class);
 
         System.out.println(result);
 
-        return objectMapper.readValue(result,QQUserInfo.class);
+        try {
+            return objectMapper.readValue(result,QQUserInfo.class);
+        } catch (Exception e) {
+            throw new RuntimeException(e.getMessage());
+        }
     }
 }
