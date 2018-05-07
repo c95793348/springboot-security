@@ -6,7 +6,9 @@ package org.google.security.core.properties;
  */
 public class BrowserPropeties {
 
-    private String loginPage = "/google_sigin_in.html";
+    private String signUpUrl = "/google-signUp.html";
+
+    private String loginPage = SecurityConstants.DEFAULT_LOGIN_PAGE_URL;
 
     private LoginType loginType = LoginType.JSON;
 
@@ -34,5 +36,13 @@ public class BrowserPropeties {
 
     public void setLoginType(LoginType loginType) {
         this.loginType = loginType;
+    }
+
+    public String getSignUpUrl() {
+        return signUpUrl;
+    }
+
+    public void setSignUpUrl(String signUpUrl) {
+        this.signUpUrl = signUpUrl;
     }
 }
